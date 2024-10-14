@@ -92,6 +92,9 @@ body{
 
 /*tablet*/
 @media (max-width: 768px) {
+    body{
+        background-color:salmon;
+    }
     .navbar{
         flex-flow: column wrap;
     }
@@ -103,6 +106,9 @@ body{
 
 /*mobile*/
 @media (max-width: 580px) {
+    body{
+        background-color:lightgrey;
+    }
     .articulos{
         flex-flow: column wrap;
         gap:0px;
