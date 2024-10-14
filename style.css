@@ -1,0 +1,94 @@
+body{
+    max-width:1200px;
+    gap:20px;
+    display:flex;
+    flex-flow: column nowrap;
+}
+
+.dark-background{
+    background-color:#35424E;
+    gap:20px;
+    padding:1%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+nav{
+    & .navbar{
+        background-color:#f94144;
+        padding:1%;
+        display: flex;
+        flex-flow: row nowrap;
+        gap:20px;
+
+        & .nav-item{
+            background-color:#f8961e;
+            flex:auto;
+        }
+        & .nav{
+            flex-grow: 2;
+        }
+    }
+
+    & .banner{
+        background-color:#f94144;
+        padding:1%;
+
+        & .text-banner{
+            background-color:#f8961e;
+        }
+    }
+    
+}
+
+.section{
+    display:flex;
+    flex-flow: row nowrap;
+}
+
+.contenido{
+    display:flex;
+    flex-flow: column wrap;
+    flex-grow: 2;
+    background-color:#4d908e;
+    padding:1%;
+    gap:20px;
+}
+
+.articulos{
+    display:flex;
+    flex-flow: row wrap;
+    flex:auto;
+    gap:20px;
+
+    & .grupo{
+        flex:auto;
+    
+        & .article{
+            background-color:#90be6d;
+            gap:20px;
+            display:flex;
+        }
+    }
+}
+.navegacion{
+    background-color:#43aa8b;
+    flex:auto;
+}
+
+.container-publi{
+    padding:1%;
+    background-color:#f9844a;
+    display:flex;
+    flex-flow: column wrap;
+    flex:auto;
+    gap:20px;
+
+    & .publicidad{
+        background-color:#f9c74f;
+    }
+}
+
+.pie{
+    background-color:#277da1;
+}
